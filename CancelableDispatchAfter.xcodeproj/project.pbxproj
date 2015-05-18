@@ -13,18 +13,7 @@
 		3FA860B41B018757008A3DB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA860B21B018757008A3DB4 /* Main.storyboard */; };
 		3FA860B61B018757008A3DB4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FA860B51B018757008A3DB4 /* Images.xcassets */; };
 		3FA860B91B018757008A3DB4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FA860B71B018757008A3DB4 /* LaunchScreen.xib */; };
-		3FA860C51B018757008A3DB4 /* CancelableDispatchAfterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA860C41B018757008A3DB4 /* CancelableDispatchAfterTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		3FA860BF1B018757008A3DB4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3FA8609D1B018757008A3DB4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3FA860A41B018757008A3DB4;
-			remoteInfo = CancelableDispatchAfter;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3FA860A51B018757008A3DB4 /* CancelableDispatchAfter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CancelableDispatchAfter.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,20 +26,10 @@
 		3FA860B31B018757008A3DB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FA860B51B018757008A3DB4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3FA860B81B018757008A3DB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		3FA860BE1B018757008A3DB4 /* CancelableDispatchAfterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CancelableDispatchAfterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FA860C31B018757008A3DB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3FA860C41B018757008A3DB4 /* CancelableDispatchAfterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CancelableDispatchAfterTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3FA860A21B018757008A3DB4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3FA860BB1B018757008A3DB4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -64,7 +43,6 @@
 			isa = PBXGroup;
 			children = (
 				3FA860A71B018757008A3DB4 /* CancelableDispatchAfter */,
-				3FA860C11B018757008A3DB4 /* CancelableDispatchAfterTests */,
 				3FA860A61B018757008A3DB4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				3FA860A51B018757008A3DB4 /* CancelableDispatchAfter.app */,
-				3FA860BE1B018757008A3DB4 /* CancelableDispatchAfterTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,23 +79,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3FA860C11B018757008A3DB4 /* CancelableDispatchAfterTests */ = {
-			isa = PBXGroup;
-			children = (
-				3FA860C41B018757008A3DB4 /* CancelableDispatchAfterTests.m */,
-				3FA860C21B018757008A3DB4 /* Supporting Files */,
-			);
-			path = CancelableDispatchAfterTests;
-			sourceTree = "<group>";
-		};
-		3FA860C21B018757008A3DB4 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				3FA860C31B018757008A3DB4 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,24 +99,6 @@
 			productReference = 3FA860A51B018757008A3DB4 /* CancelableDispatchAfter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3FA860BD1B018757008A3DB4 /* CancelableDispatchAfterTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3FA860CB1B018757008A3DB4 /* Build configuration list for PBXNativeTarget "CancelableDispatchAfterTests" */;
-			buildPhases = (
-				3FA860BA1B018757008A3DB4 /* Sources */,
-				3FA860BB1B018757008A3DB4 /* Frameworks */,
-				3FA860BC1B018757008A3DB4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3FA860C01B018757008A3DB4 /* PBXTargetDependency */,
-			);
-			name = CancelableDispatchAfterTests;
-			productName = CancelableDispatchAfterTests;
-			productReference = 3FA860BE1B018757008A3DB4 /* CancelableDispatchAfterTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,10 +110,6 @@
 				TargetAttributes = {
 					3FA860A41B018757008A3DB4 = {
 						CreatedOnToolsVersion = 6.2;
-					};
-					3FA860BD1B018757008A3DB4 = {
-						CreatedOnToolsVersion = 6.2;
-						TestTargetID = 3FA860A41B018757008A3DB4;
 					};
 				};
 			};
@@ -189,7 +127,6 @@
 			projectRoot = "";
 			targets = (
 				3FA860A41B018757008A3DB4 /* CancelableDispatchAfter */,
-				3FA860BD1B018757008A3DB4 /* CancelableDispatchAfterTests */,
 			);
 		};
 /* End PBXProject section */
@@ -202,13 +139,6 @@
 				3FA860B41B018757008A3DB4 /* Main.storyboard in Resources */,
 				3FA860B91B018757008A3DB4 /* LaunchScreen.xib in Resources */,
 				3FA860B61B018757008A3DB4 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3FA860BC1B018757008A3DB4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,23 +155,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3FA860BA1B018757008A3DB4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3FA860C51B018757008A3DB4 /* CancelableDispatchAfterTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		3FA860C01B018757008A3DB4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3FA860A41B018757008A3DB4 /* CancelableDispatchAfter */;
-			targetProxy = 3FA860BF1B018757008A3DB4 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3FA860B21B018757008A3DB4 /* Main.storyboard */ = {
@@ -359,40 +273,6 @@
 			};
 			name = Release;
 		};
-		3FA860CC1B018757008A3DB4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = CancelableDispatchAfterTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CancelableDispatchAfter.app/CancelableDispatchAfter";
-			};
-			name = Debug;
-		};
-		3FA860CD1B018757008A3DB4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = CancelableDispatchAfterTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CancelableDispatchAfter.app/CancelableDispatchAfter";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -412,14 +292,7 @@
 				3FA860CA1B018757008A3DB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		3FA860CB1B018757008A3DB4 /* Build configuration list for PBXNativeTarget "CancelableDispatchAfterTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3FA860CC1B018757008A3DB4 /* Debug */,
-				3FA860CD1B018757008A3DB4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

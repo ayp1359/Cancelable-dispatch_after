@@ -10,6 +10,13 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)stop:(id)sender;
+- (IBAction)start:(id)sender;
+
+@property (nonatomic) int64_t delay;
+@property (weak, nonatomic) IBOutlet UILabel *textLabel;
+@property (weak, nonatomic) IBOutlet UIButton *startButton;
+@property (weak, nonatomic) IBOutlet UIButton *stopButton;
 
 @end
 
